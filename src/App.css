@@ -1,8 +1,13 @@
+body{
+  background-image: url('https://images.pexels.com/photos/1037993/pexels-photo-1037993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-repeat: no-repeat;
+  background-position: unset;
+}
 .task-manager {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f4f4f4;
+  background-color: #efd1d1;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -12,7 +17,7 @@
   align-items: center;
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #fff;
+  background-color: #ff15cc61;
   border-radius: 5px;
 }
 
