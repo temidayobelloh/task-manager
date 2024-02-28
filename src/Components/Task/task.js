@@ -1,3 +1,5 @@
+import './task.css';
+
 const Task = ({ task, deleteTask, toggleTask }) => {
     return (
       <div className={`task ${task.completed ? 'completed' : ''}`}>

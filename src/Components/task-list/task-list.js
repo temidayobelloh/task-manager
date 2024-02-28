@@ -1,4 +1,6 @@
 import Task from "../Task/task";
+import './task-list.css';
+
 const TaskList = ({ tasks, deleteTask, toggleTask }) => {
     return (
       <div>
