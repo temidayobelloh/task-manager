@@ -2,13 +2,12 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #dad7d7;
+    background-color: #f4f4f4;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   .task-manager h1 {
-    padding: 50px;
     text-align: center;
     color: #333;
   }

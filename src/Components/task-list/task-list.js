@@ -1,18 +1,18 @@
 import Task from "../Task/task";
 import './task-list.css';
-
 const TaskList = ({ tasks, deleteTask, toggleTask }) => {
     return (
-      <div>
+      <div className="task-list">
         {tasks.map(task => (
           <Task 
             key={task.id} 
             task={task} 
             deleteTask={deleteTask} 
-            toggleTask={toggleTask}  // Pass toggleTask down to Task component
+            toggleTask={toggleTask} 
           />
         ))}
       </div>
     );
   };
+  
 export default TaskList;
