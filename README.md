@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+[10:47] Ilegbinijie Edosa Innocent
+Class work 
+ build a "Task Manager" application using React. This is a practical project that involves creating, updating, and deleting tasks. Here's a basic outline of features:
+ 
+### Task Manager App
+ 
+#### Features:
+ 
+1. **Task List:**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+   - Display a list of tasks with details like task name, description, and due date.
 
-## Available Scripts
+   - Each task should have options to mark it as complete or delete it.
+ 
+2. **Add Task:**
 
-In the project directory, you can run:
+   - Allow users to add a new task with a name, description, and due date.
 
-### `npm start`
+   - Validate and handle empty task names or past due dates.
+ 
+3. **Edit Task:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   - Enable users to edit task details after creation.
+ 
+4. **Complete Task:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   - Allow users to mark a task as complete, visually differentiating it from incomplete tasks.
+ 
+5. **Delete Task:**
 
-### `npm test`
+   - Provide the option to delete a task.
+ 
+#### Technical Implementation:
+ 
+1. **Create React App:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   - Set up a new React project using Create React App for a quick start.
+ 
+2. **Component Structure:**
 
-### `npm run build`
+   - Create components for TaskList, TaskItem, AddTaskForm, EditTaskForm, etc.
+ 
+3. **State Management:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   - Use React state to manage the list of tasks and their statuses (complete or incomplete).
+ 
+4. **Form Handling:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   - Implement forms for adding and editing tasks. Utilize controlled components to handle form input.
+ 
+5. **Styling:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   - Apply basic styling using CSS or a styling library like styled-components to make the app visually appealing.
+ 
+6. **LocalStorage:**
 
-### `npm run eject`
+   - Implement local storage to persist tasks even after a page refresh.
+ 
+7. **Routing (Optional):**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   - Use React Router for handling different views like the task list and task details.
+ 
+8. **Date Handling:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   - Consider using a date library or built-in JavaScript Date object to handle due dates effectively.
+ 
+9. **Responsive Design (Optional):**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   - Make the application responsive for various screen sizes.
+ 
+ 
+This project will not only help you practice React fundamentals but also provide a practical understanding of state management, form handling, and basic CRUD (Create, Read, Update, Delete) operations in a web application.
